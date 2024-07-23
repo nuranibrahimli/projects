@@ -1,17 +1,23 @@
-import java.time.LocalDateTime;
-
 public class Language {
-    private int languageId;
+    private Integer id;
     private String name;
-    private LocalDateTime lastUpdate;
 
-    // Getters and setters
-    public int getLanguageId() {
-        return languageId;
+    public Language() {
     }
 
-    public void setLanguageId(int languageId) {
-        this.languageId = languageId;
+
+    public Language(Integer id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -22,11 +28,11 @@ public class Language {
         this.name = name;
     }
 
-    public LocalDateTime getLastUpdate() {
-        return lastUpdate;
-    }
-
-    public void setLastUpdate(LocalDateTime lastUpdate) {
-        this.lastUpdate = lastUpdate;
+    @Override
+    public String toString() {
+        return "Language{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
     }
 }

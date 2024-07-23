@@ -1,0 +1,114 @@
+17:07:00.323 [main] INFO  TestProfile - Starting the application
+17:07:00.489 [main] INFO  TestProfile - Set active profile to: prod
+17:07:01.313 [main] INFO  LanguageService - Language table created
+17:07:01.313 [main] INFO  TestProfile - Created language table
+17:07:01.395 [main] INFO  LanguageService - Inserted language: Language{id=null, name='English'}
+17:07:01.395 [main] INFO  TestProfile - Inserted language: English
+17:07:01.396 [main] INFO  LanguageService - Finding language by id: 1
+17:07:01.467 [main] INFO  TestProfile - Retrieved language: Language{id=1, name='English             '}
+17:07:01.467 [main] INFO  TestProfile - All languages:
+17:07:01.467 [main] INFO  LanguageService - Finding all languages
+17:07:01.538 [main] INFO  TestProfile - Language{id=1, name='English             '}
+17:07:01.538 [main] INFO  TestProfile - Language{id=2, name='Italian             '}
+17:07:01.538 [main] INFO  TestProfile - Language{id=3, name='Japanese            '}
+17:07:01.539 [main] INFO  TestProfile - Language{id=4, name='Mandarin            '}
+17:07:01.539 [main] INFO  TestProfile - Language{id=5, name='French              '}
+17:07:01.539 [main] INFO  TestProfile - Language{id=6, name='German              '}
+17:07:01.539 [main] INFO  TestProfile - Language{id=7, name='English             '}
+17:07:01.539 [main] INFO  TestProfile - Language{id=8, name='English             '}
+17:07:01.539 [main] INFO  TestProfile - Language{id=9, name='English             '}
+17:07:01.539 [main] INFO  TestProfile - Language{id=10, name='English             '}
+17:07:01.539 [main] INFO  TestProfile - Language{id=11, name='English             '}
+17:07:01.541 [main] INFO  TestProfile - Application finished
+19:01:59.538 [main] INFO  TestProfile - Starting the application
+19:01:59.781 [main] INFO  TestProfile - Set active profile to: prod
+19:02:01.101 [main] INFO  LanguageService - Language table created
+19:02:01.101 [main] INFO  TestProfile - Created language table
+19:02:01.213 [main] INFO  LanguageService - Inserted language: Language{id=null, name='English'}
+19:02:01.213 [main] INFO  TestProfile - Inserted language: English
+19:02:01.213 [main] INFO  LanguageService - Finding language by id: 1
+19:02:01.272 [main] INFO  TestProfile - Retrieved language: Language{id=1, name='English             '}
+19:02:01.272 [main] INFO  TestProfile - All languages:
+19:02:01.272 [main] INFO  LanguageService - Finding all languages
+19:02:01.320 [main] INFO  TestProfile - Language{id=1, name='English             '}
+19:02:01.321 [main] INFO  TestProfile - Language{id=2, name='Italian             '}
+19:02:01.322 [main] INFO  TestProfile - Language{id=3, name='Japanese            '}
+19:02:01.323 [main] INFO  TestProfile - Language{id=4, name='Mandarin            '}
+19:02:01.323 [main] INFO  TestProfile - Language{id=5, name='French              '}
+19:02:01.324 [main] INFO  TestProfile - Language{id=6, name='German              '}
+19:02:01.325 [main] INFO  TestProfile - Language{id=7, name='English             '}
+19:02:01.325 [main] INFO  TestProfile - Language{id=8, name='English             '}
+19:02:01.325 [main] INFO  TestProfile - Language{id=9, name='English             '}
+19:02:01.325 [main] INFO  TestProfile - Language{id=10, name='English             '}
+19:02:01.325 [main] INFO  TestProfile - Language{id=11, name='English             '}
+19:02:01.325 [main] INFO  TestProfile - Language{id=12, name='English             '}
+19:02:01.330 [main] INFO  TestProfile - Application finished
+19:05:21.573 [main] INFO  TestProfile - Starting the application
+19:05:21.779 [main] INFO  TestProfile - Set active profile to: prod
+19:05:23.042 [main] INFO  LanguageService - Inserted language: Language{id=null, name='English'}
+19:05:23.043 [main] INFO  TestProfile - Inserted language: English
+19:05:23.043 [main] INFO  LanguageService - Finding language by id: 1
+19:05:23.121 [main] INFO  TestProfile - Retrieved language: Language{id=1, name='English             '}
+19:05:23.122 [main] INFO  TestProfile - All languages:
+19:05:23.122 [main] INFO  LanguageService - Finding all languages
+19:05:23.162 [main] INFO  TestProfile - Language{id=1, name='English             '}
+19:05:23.162 [main] INFO  TestProfile - Language{id=2, name='Italian             '}
+19:05:23.162 [main] INFO  TestProfile - Language{id=3, name='Japanese            '}
+19:05:23.162 [main] INFO  TestProfile - Language{id=4, name='Mandarin            '}
+19:05:23.163 [main] INFO  TestProfile - Language{id=5, name='French              '}
+19:05:23.163 [main] INFO  TestProfile - Language{id=6, name='German              '}
+19:05:23.163 [main] INFO  TestProfile - Language{id=7, name='English             '}
+19:05:23.163 [main] INFO  TestProfile - Language{id=8, name='English             '}
+19:05:23.163 [main] INFO  TestProfile - Language{id=9, name='English             '}
+19:05:23.163 [main] INFO  TestProfile - Language{id=10, name='English             '}
+19:05:23.163 [main] INFO  TestProfile - Language{id=11, name='English             '}
+19:05:23.163 [main] INFO  TestProfile - Language{id=12, name='English             '}
+19:05:23.163 [main] INFO  TestProfile - Language{id=13, name='English             '}
+19:05:23.166 [main] INFO  TestProfile - Application finished
+19:24:54.462 [main] INFO  TestProfile - Starting the application
+19:24:54.687 [main] INFO  TestProfile - Set active profile to: prod
+19:24:55.931 [main] INFO  LanguageService - Inserted language: Language{id=null, name='English'}
+19:24:55.932 [main] INFO  TestProfile - Inserted language: English
+19:24:55.932 [main] INFO  LanguageService - Finding language by id: 1
+19:24:56.063 [main] INFO  TestProfile - Retrieved language: Language{id=1, name='English             '}
+19:24:56.063 [main] INFO  TestProfile - All languages:
+19:24:56.063 [main] INFO  LanguageService - Finding all languages
+19:24:56.209 [main] INFO  TestProfile - Language{id=1, name='English             '}
+19:24:56.209 [main] INFO  TestProfile - Language{id=2, name='Italian             '}
+19:24:56.210 [main] INFO  TestProfile - Language{id=3, name='Japanese            '}
+19:24:56.210 [main] INFO  TestProfile - Language{id=4, name='Mandarin            '}
+19:24:56.210 [main] INFO  TestProfile - Language{id=5, name='French              '}
+19:24:56.210 [main] INFO  TestProfile - Language{id=6, name='German              '}
+19:24:56.210 [main] INFO  TestProfile - Language{id=7, name='English             '}
+19:24:56.210 [main] INFO  TestProfile - Language{id=8, name='English             '}
+19:24:56.210 [main] INFO  TestProfile - Language{id=9, name='English             '}
+19:24:56.210 [main] INFO  TestProfile - Language{id=10, name='English             '}
+19:24:56.210 [main] INFO  TestProfile - Language{id=11, name='English             '}
+19:24:56.210 [main] INFO  TestProfile - Language{id=12, name='English             '}
+19:24:56.210 [main] INFO  TestProfile - Language{id=13, name='English             '}
+19:24:56.211 [main] INFO  TestProfile - Language{id=14, name='English             '}
+19:24:56.214 [main] INFO  TestProfile - Application finished
+19:26:38.185 [main] INFO  TestProfile - Starting the application
+19:26:38.370 [main] INFO  TestProfile - Set active profile prod
+19:26:39.604 [main] INFO  LanguageService - Inserted language: Language{id=null, name='English'}
+19:26:39.605 [main] INFO  TestProfile - Inserted language: English
+19:26:39.605 [main] INFO  LanguageService - Finding language by id: 1
+19:26:39.720 [main] INFO  TestProfile - Retrieved language: Language{id=1, name='English             '}
+19:26:39.720 [main] INFO  TestProfile - All languages:
+19:26:39.721 [main] INFO  LanguageService - Finding all languages
+19:26:39.817 [main] INFO  TestProfile - Language{id=1, name='English             '}
+19:26:39.818 [main] INFO  TestProfile - Language{id=2, name='Italian             '}
+19:26:39.818 [main] INFO  TestProfile - Language{id=3, name='Japanese            '}
+19:26:39.818 [main] INFO  TestProfile - Language{id=4, name='Mandarin            '}
+19:26:39.818 [main] INFO  TestProfile - Language{id=5, name='French              '}
+19:26:39.818 [main] INFO  TestProfile - Language{id=6, name='German              '}
+19:26:39.818 [main] INFO  TestProfile - Language{id=7, name='English             '}
+19:26:39.818 [main] INFO  TestProfile - Language{id=8, name='English             '}
+19:26:39.818 [main] INFO  TestProfile - Language{id=9, name='English             '}
+19:26:39.818 [main] INFO  TestProfile - Language{id=10, name='English             '}
+19:26:39.818 [main] INFO  TestProfile - Language{id=11, name='English             '}
+19:26:39.818 [main] INFO  TestProfile - Language{id=12, name='English             '}
+19:26:39.818 [main] INFO  TestProfile - Language{id=13, name='English             '}
+19:26:39.818 [main] INFO  TestProfile - Language{id=14, name='English             '}
+19:26:39.818 [main] INFO  TestProfile - Language{id=15, name='English             '}
+19:26:39.821 [main] INFO  TestProfile - Application finished
