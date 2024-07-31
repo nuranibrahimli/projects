@@ -1,3 +1,5 @@
+package entities;
+
 public class Language {
     private Integer id;
     private String name;

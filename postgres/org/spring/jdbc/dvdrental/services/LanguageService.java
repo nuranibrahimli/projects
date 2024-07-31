@@ -1,11 +1,17 @@
+package services;
+
+import entities.Language;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Service;
+import repository.LanguageRepository;
 
 import java.util.List;
 import java.util.Optional;
 
 @Service
+@ComponentScan(basePackages = "services")
 public class LanguageService {
     private static final Logger logger = LoggerFactory.getLogger(LanguageService.class);
 
@@ -14,7 +20,6 @@ public class LanguageService {
     public LanguageService(LanguageRepository repository) {
         this.repository = repository;
     }
-
 
     public void insert(Language language) {
         repository.insert(language);

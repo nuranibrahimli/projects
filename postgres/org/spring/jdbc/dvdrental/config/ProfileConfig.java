@@ -1,4 +1,10 @@
+package config;
+
+import repository.ActorRepository;
+import services.ActorServices;
+import services.LanguageService;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -7,6 +13,7 @@ import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import javax.sql.DataSource;
 
 @Configuration
+@ComponentScan(basePackages = {"services", "repository", "entities"})
 public class ProfileConfig {
 
     @Bean
@@ -37,12 +44,17 @@ public class ProfileConfig {
     }
 
     @Bean
-    public LanguageRepository languageRepository(JdbcTemplate jdbcTemplate) {
-        return new LanguageRepository(jdbcTemplate);
+    public ActorRepository actorRepository(JdbcTemplate jdbcTemplate) {
+        return new ActorRepository(jdbcTemplate);
     }
-
-    @Bean
-    public LanguageService languageService(LanguageRepository languageRepository) {
-        return new LanguageService(languageRepository);
-    }
+//
+//    @Bean
+//    public ActorServices actorServices(ActorRepository actorRepository) {
+//        return new ActorServices(actorRepository);
+//    }
+//
+//    @Bean
+//    public LanguageService languageService(JdbcTemplate jdbcTemplate) {
+//        return new LanguageService(jdbcTemplate);
+//    }
 }
