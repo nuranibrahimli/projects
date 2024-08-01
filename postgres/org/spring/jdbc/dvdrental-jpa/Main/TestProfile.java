@@ -1,4 +1,4 @@
-package SpringDvdrentalReportsTask;
+package Main;
 
 import config.ProfileConfig;
 import entities.Language;

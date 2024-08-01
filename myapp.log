@@ -3905,7 +3905,7 @@ INSERT INTO language (name) VALUES (?) [42104-224]
 	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:1025)
 	at repository.LanguageRepository.insert(LanguageRepository.java:28)
 	at services.LanguageService.insert(LanguageService.java:25)
-	at SpringDvdrentalReportsTask.TestProfile.main(TestProfile.java:32)
+	at Main.TestProfile.main(TestProfile.java:32)
 Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "LANGUAGE" not found (this database is empty); SQL statement:
 INSERT INTO language (name) VALUES (?) [42104-224]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)

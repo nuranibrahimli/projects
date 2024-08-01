@@ -1,22 +1,17 @@
 package config;
 
-import repository.ActorRepository;
-import repository.StoreStaffRepository;
-import services.ActorServices;
-import services.LanguageService;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
-import services.StoreStaffService;
+import repository.LanguageRepository;
+import services.LanguageService;
 
 import javax.sql.DataSource;
 
 @Configuration
-@ComponentScan(basePackages = {"services", "repository", "entities"})
-public class ProfileConfig {
+public class LanguageConfig {
 
     @Bean
     @Profile("dev")
@@ -46,28 +41,12 @@ public class ProfileConfig {
     }
 
     @Bean
-    public ActorRepository actorRepository(JdbcTemplate jdbcTemplate) {
-        return new ActorRepository(jdbcTemplate);
-
+    public LanguageRepository languageRepository(JdbcTemplate jdbcTemplate) {
+        return new LanguageRepository(jdbcTemplate);
     }
 
     @Bean
-    public StoreStaffRepository storeStaffRepository(JdbcTemplate jdbcTemplate) {
-        return new StoreStaffRepository(jdbcTemplate);
+    public LanguageService languageService(LanguageRepository languageRepository) {
+        return new LanguageService(languageRepository);
     }
-
-    @Bean
-    public StoreStaffService storeStaffService(StoreStaffRepository storeStaffRepository) {
-        return new StoreStaffService(storeStaffRepository);
-    }
-//
-//    @Bean
-//    public ActorServices actorServices(ActorRepository actorRepository) {
-//        return new ActorServices(actorRepository);
-//    }
-//
-//    @Bean
-//    public LanguageService languageService(JdbcTemplate jdbcTemplate) {
-//        return new LanguageService(jdbcTemplate);
-//    }
 }
